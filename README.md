@@ -4,7 +4,8 @@
 |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:question:|
 ## Introduction
 This repository contains a cadmium v2 simulation project of an airport. This project includes atomic models of a control tower, queue, runway, selector,
-storage, exit and coupled models of hangar and airport. Project also contains log output displaying simulation results.
+storage, exit and coupled models of hangar and airport. Project also contains log output displaying simulation results. .log files contain simulation results
+using different testing scenarios.
 
 ## Dependencies
 This project assumes that you have Cadmium installed in a location accessible by the environment variable $CADMIUM.
