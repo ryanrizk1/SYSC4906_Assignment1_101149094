@@ -12,7 +12,6 @@ struct Job_generator_modelState {
     enum states {IDLE, SENDING};
     std::vector<int> jobQueue;   
     size_t currentJobIndex;           
-
     Job_generator_modelState() : sigma(1.0), currentJobIndex(0) {jobQueue = {21, 273, 304, 429};
     }
 };
@@ -33,9 +32,12 @@ public:
     }
 
     void internalTransition(Job_generator_modelState& state) const override {
-        //state.sigma = std::numeric_limits<double>::infinity();
-        state.sigma = 6.0;    
-        state.currentJobIndex += 1;
+        if (state.currentJobIndex < state.jobQueue.size()) {
+            state.sigma = 8;    
+            state.currentJobIndex += 1;
+        } else {
+            state.sigma = std::numeric_limits<double>::infinity();
+        }
     }
 
     void externalTransition(Job_generator_modelState& state, double e) const override {
