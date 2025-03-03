@@ -1,0 +1,122 @@
+time;model_id;model_name;port_name;data
+[33m0;1;generator;;{1}[0m
+[33m0;4;exit;;{10}[0m
+[33m0;5;storage4;;{10}[0m
+[33m0;6;storage3;;{10}[0m
+[33m0;7;storage2;;{10}[0m
+[33m0;8;storage1;;{10}[0m
+[33m0;9;selector;;{10}[0m
+[33m0;10;arrivalQueue;;{11}[0m
+[33m0;11;departQueue;;{11}[0m
+[33m0;12;runway;;{10}[0m
+[33m0;13;control;;{10}[0m
+Generator: new arriving plane number: 21
+[32m1;1;generator;out;21[0m
+[33m1;1;generator;;{6}[0m
+Queue: plane number: 21 received
+[33m1;10;arrivalQueue;;{11}[0m
+[33m1;11;departQueue;;{10}[0m
+Queue: plane number: 21 sent to control tower
+[32m2;10;arrivalQueue;out;21[0m
+[33m2;10;arrivalQueue;;{10}[0m
+Control: Plane number: 21 going to arrivals
+[33m2;13;control;;{11}[0m
+Control: Plane number: 21 sent to runway
+Queue: occupied
+[33m3;10;arrivalQueue;;{12}[0m
+Queue: occupied
+[33m3;11;departQueue;;{12}[0m
+Runway: plane number: 21 arriving
+[33m3;12;runway;;{11}[0m
+[32m3;13;control;stop_a;1[0m
+[32m3;13;control;stop_d;1[0m
+[32m3;13;control;arrival;21[0m
+[33m3;13;control;;{13}[0m
+Generator: new arriving plane number: 273
+[32m7;1;generator;out;273[0m
+[33m7;1;generator;;{6}[0m
+Queue: plane number: 273 received
+[33m7;10;arrivalQueue;;{12}[0m
+Runway: plane number: 21 sent to hangar
+[33m8;9;selector;;{11}[0m
+[32m8;12;runway;exitA;21[0m
+[33m8;12;runway;;{10}[0m
+Selector: sent to plane number: 21 to storage 1
+Storage: plane number: 21 stored
+[33m9;8;storage1;;{11}[0m
+[32m9;9;selector;out1;21[0m
+[33m9;9;selector;;{10}[0m
+Control: Runway open again
+[33m9;13;control;;{14}[0m
+Storage: plane number21 sent to exit
+[33m10;4;exit;;{11}[0m
+[32m10;8;storage1;out;21[0m
+[33m10;8;storage1;;{10}[0m
+Queue: open
+[33m10;10;arrivalQueue;;{11}[0m
+Queue: open
+[33m10;11;departQueue;;{11}[0m
+[32m10;13;control;done_a;1[0m
+[32m10;13;control;done_d;1[0m
+[33m10;13;control;;{10}[0m
+Exit: plane number: 21 sent to departure queue
+Queue: plane number: 273 sent to control tower
+[32m11;4;exit;out;21[0m
+[33m11;4;exit;;{10}[0m
+[32m11;10;arrivalQueue;out;273[0m
+[33m11;10;arrivalQueue;;{10}[0m
+Queue: plane number: 21 received
+[33m11;11;departQueue;;{11}[0m
+Control: Plane number: 273 going to arrivals
+[33m11;13;control;;{11}[0m
+Queue: plane number: 21 sent to control tower
+Control: Plane number: 273 sent to runway
+Queue: occupied
+[33m12;10;arrivalQueue;;{12}[0m
+Queue: occupied
+[32m12;11;departQueue;out;21[0m
+[33m12;11;departQueue;;{12}[0m
+Runway: plane number: 273 arriving
+[33m12;12;runway;;{11}[0m
+[32m12;13;control;stop_a;1[0m
+[32m12;13;control;stop_d;1[0m
+[32m12;13;control;arrival;273[0m
+[33m12;13;control;;{13}[0m
+Generator: new arriving plane number: 304
+[32m13;1;generator;out;304[0m
+[33m13;1;generator;;{6}[0m
+Queue: plane number: 304 received
+[33m13;10;arrivalQueue;;{12}[0m
+Runway: plane number: 273 sent to hangar
+[33m17;9;selector;;{11}[0m
+[32m17;12;runway;exitA;273[0m
+[33m17;12;runway;;{10}[0m
+Selector: sent to plane number: 273 to storage 2
+Storage: plane number: 273 stored
+[33m18;7;storage2;;{11}[0m
+[32m18;9;selector;out2;273[0m
+[33m18;9;selector;;{10}[0m
+Control: Runway open again
+[33m18;13;control;;{14}[0m
+Generator: new arriving plane number: 429
+[32m19;1;generator;out;429[0m
+[33m19;1;generator;;{6}[0m
+Queue: plane number: 304 received
+[33m19;10;arrivalQueue;;{12}[0m
+Queue: open
+[33m19;11;departQueue;;{11}[0m
+[32m19;13;control;done_a;1[0m
+[32m19;13;control;done_d;1[0m
+[33m19;13;control;;{10}[0m
+[33m20;11;departQueue;;{10}[0m
+[33m20;1;generator;;{6}[0m
+[33m20;4;exit;;{10}[0m
+[33m20;5;storage4;;{10}[0m
+[33m20;6;storage3;;{10}[0m
+[33m20;7;storage2;;{11}[0m
+[33m20;8;storage1;;{10}[0m
+[33m20;9;selector;;{10}[0m
+[33m20;10;arrivalQueue;;{12}[0m
+[33m20;11;departQueue;;{10}[0m
+[33m20;12;runway;;{10}[0m
+[33m20;13;control;;{10}[0m
